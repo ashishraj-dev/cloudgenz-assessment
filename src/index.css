@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, abyss, business, black;
+}
+
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-6xl px-8;
+  }
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
