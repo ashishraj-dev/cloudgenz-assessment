@@ -58,7 +58,7 @@ const ProductDetailPage = () => {
           <div className="flex mt-8 w-full justify-center">
             <Link
               to="/products"
-              className="btn btn-neutral shadow-[0px_0px_3px_0px_#ffffff] px-4 py-2 text-xl"
+              className="btn btn-neutral bg-amber-50 text-black px-4 py-2 text-xl rounded-3xl"
             >
               <IoMdArrowRoundBack />
               Back to Products

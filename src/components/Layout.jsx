@@ -12,7 +12,7 @@ const Layout = () => {
       {isPageLoading ? (
         <Loading />
       ) : (
-        <main className="align-element py-8">
+        <main className="align-element max-sm:px-2 py-8">
           <Outlet />
         </main>
       )}
