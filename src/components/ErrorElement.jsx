@@ -2,7 +2,7 @@ import { useRouteError, Link } from 'react-router-dom';
 import { IoMdArrowRoundBack } from 'react-icons/io';
 
 const ErrorElement = () => {
-// RETRIEVE ANY ERROR THAT OCCURRED DURING ROUTE LOADING OR RENDERING
+  // RETRIEVE ANY ERROR THAT OCCURRED DURING ROUTE LOADING OR RENDERING
   const error = useRouteError();
   const message =
     error.status === 404
@@ -17,7 +17,7 @@ const ErrorElement = () => {
         <Link to="/" className="btn btn-primary">
           Go Home
         </Link>
-        <Link to="/products" className="btn btn-neutral shadow-[0px_0px_3px_0px_#ffffff] px-4 py-2 text-xl">
+        <Link to="/products" className="btn btn-neutral bg-amber-50 text-black px-4 py-2 text-xl rounded-3xl">
           <IoMdArrowRoundBack />
           Back to Products
         </Link>
